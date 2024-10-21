@@ -21,9 +21,7 @@ print(option6)
 choice= input("Choose an option: ")
 
 if choice == (option6):
-    print("ending program")<br>
-else:
-    print("how many hours will you spend doing this?")
+    print("ending program")
 elif choice in [option1, option2, option3, option4, option5]:
     hours= input(f"how many hours will you spend on {choice} ")
     print(f"You will spend {hours} hours on option {choice}")
