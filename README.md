@@ -19,11 +19,12 @@ print(option4)
 print(option5)
 print(option6)
 choice= input("Choose an option: ")
-
+#Not an issue but something that could be changed is not having the number in writing the option that the user wants.
 if choice == (option6):
     print("ending program")
 elif choice in [option1, option2, option3, option4, option5]:
     hours= input(f"how many hours will you spend on {choice} ")
-    print(f"You will spend {hours} hours on option {choice}")
+    print("You will spend {hours} hours on option {choice}")
 else:
     print("invalid option")
+#Issue in the code in regards to not printing the chosen program and hour at all. 
